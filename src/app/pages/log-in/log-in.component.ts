@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './log-in.component.scss',
 })
 export class LogInComponent {
-  isLog: boolean = false;
   constructor() {}
 
   ngOnInit() {}

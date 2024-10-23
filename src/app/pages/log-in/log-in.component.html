@@ -1,17 +1,43 @@
-<div class="d-flex justify-content-center align-items-center mt-5">
-  <label for="psw" class="me-3">password</label>
-  <input
-    type="password"
-    class="me-3 text-center"
-    placeholder="password"
-    id="psw"
-    name="psw"
-  />
-  <button class="btn btn-outline-secondary bi bi-calendar3" type="button">
-    log-in
-  </button>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header text-center">
+          <h3>Log-in</h3>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group mb-3">
+              <label for="username">email</label>
+              <input
+                type="text"
+                id="username"
+                class="form-control"
+                name="email"
+              />
+            </div>
 
-  <div class="ms-3">
-    <a routerLink="">registrati</a>
+            <div class="form-group mb-3">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control"
+                name="password"
+              />
+            </div>
+
+            <button routerLink="/sign-up" class="btn btn-primary w-100">
+              Sign Up
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="p-5">
+  <p>non sei ancora registrato?</p>
+  <a routerLink="">sign-up</a>
 </div>

@@ -1,9 +1,19 @@
 <ul ngbNav #nav="ngbNav" class="nav-tabs">
   <li ngbNavItem>
-    <button ngbNavLink routerLink="">sign-up</button>
+    <button
+      ngbNavLink
+      routerLink=""
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Sign Up
+    </button>
   </li>
   <li ngbNavItem>
-    <button ngbNavLink routerLink="/home">Home</button>
+    <button ngbNavLink routerLink="/home" routerLinkActive="active">
+      Home
+    </button>
   </li>
 </ul>
+
 <div [ngbNavOutlet]="nav"></div>

@@ -30,7 +30,7 @@ export class AuthService {
   autoLogoutTimer: any;
 
   constructor(private http: HttpClient, private router: Router) {
-    // this.restoreUser()
+    this.restoreUser();
   }
 
   register(newUser: Partial<iUser>) {
@@ -47,7 +47,7 @@ export class AuthService {
 
         if (!expDate) return;
 
-        // this.autoLogout(expDate)
+        this.autoLogout(expDate);
       })
     );
   }
