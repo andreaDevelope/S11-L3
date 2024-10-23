@@ -14,7 +14,7 @@ export class AuthService {
   jwt: JwtHelperService = new JwtHelperService();
 
   signupUrl: string = 'http://localhost:3000/users';
-  loginUrl: string = 'http://localhost:3000/users';
+  loginUrl: string = 'http://localhost:3000/login';
 
   authSubject$ = new BehaviorSubject<iAccessData | null>(null);
 

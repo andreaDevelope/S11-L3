@@ -1,0 +1,7 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNpYW9AY2lhaW8uY29tIiwiaWF0IjoxNzI5NzAyODM4LCJleHAiOjE3Mjk3MDY0MzgsInN1YiI6IjEifQ.nkX5SoYnRYiW_UTwUJOHARW3WcBlrYP2xwDGPrO3Su8",
+  "user": {
+    "email": "ciao@ciaio.com",
+    "id": 1
+  }
+}

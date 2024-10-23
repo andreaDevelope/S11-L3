@@ -1,14 +1,9 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "exampleUser",
-      "password": "securePassword123"
-    },
-    {
-      "id": 2,
-      "email": "secondUser",
-      "password": "anotherPassword456"
+      "email": "ciao@ciaio.com",
+      "password": "$2a$10$Bv4cSTeIOOlGzlCm9Wokm./Q7M4uyervcijxw6VWW0V.lCMFNcIZ6",
+      "id": 1
     }
   ]
 }
