@@ -5,10 +5,4 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
   constructor() {}
-
-  islog: boolean = false;
-
-  auth() {
-    return !this.islog;
-  }
 }
